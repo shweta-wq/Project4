@@ -1,0 +1,150 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+
+}
+.meal-wrapper{
+    
+	text-align: center;
+	
+
+}
+.title{
+	padding:30px;
+
+}
+.meal-search{
+width:100%;
+
+	
+}
+
+#search-input{
+    color:#d62839;
+	padding:10px;
+	border-radius:20px 0 0px 20px;
+	width:50%;
+	margin:20px 0;
+	outline:none;
+	
+
+}
+.meal-result{
+	
+	width:100%;
+	height:100%;
+	text-align: center;
+
+}
+.meal-card{
+	width:300px;
+	
+	height:100%;
+	
+	padding:1px 1px;
+	margin:50px;
+	border-radius:1%;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+	display:inline-block;
+	
+	
+}
+
+
+.meal-img img{
+	width:290px;
+	object-fit: cover;
+}
+.meal-name{
+	margin:20px 0;
+}
+.meal-name a{
+	text-decoration: none;
+	color:white;
+}
+.meal-name h3,a{
+	padding:20px;
+	
+}
+
+.btn{
+      margin:-4px;
+    padding:10px;
+    outline:none;
+    border-radius:0px 20px 20px 0;
+    background-color: #d62839;
+    color:white;
+   
+}
+
+.recipe-btn{
+	background-color:#d62839;
+	padding:5px 10px;
+	border-radius:10px;
+	margin: 10px 0;
+	text-decoration: none;
+	height:100%;
+
+
+}
+
+.rec-img img{
+
+     width:200px;
+     object-fit:cover;
+     border-radius:50%;
+     
+}
+.showRecipe{
+	display:block;
+}
+.meald{
+	display: none;
+    overflow-y: scroll;
+    text-align: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:600px;
+    padding:5px;
+	background-color:#d62839;
+    
+
+    
+
+}
+.meal-details-content{
+	height:500px;
+
+
+}
+.float-right{
+background-color:#d62839; 
+	float:right;
+	color:white;
+	padding:5px;
+	outline:none;
+	border:none;
+	
+}
+
+.instructions{
+ color:white;
+	padding:30px;
+}
+.recipe-link{
+	padding:30px;
+
+}
+.recipe-link a{
+color:white;
+	text-decoration:none;
+	
+}
+.instructions h3 {
+     
+padding:10px;
+  
+}
